@@ -8,7 +8,7 @@ Este repositorio contiene una serie de ejercicios prácticos para aprender y pra
 |----|---------|-------------|
 | 01 | [01-pod-simple](./01-pod-simple/) | Crea un pod básico con un contenedor ejecutando Nginx.
 | 02 | [02-deployment-nginx](./02-deployment-nginx/) | Crea un deployment con un nginx y replicas
-| 03 | [03-service-clusterip](./03-service-clusterip/) | Crea un service nodePort
+| 03 | [03-service-clusterip](./03-service-clusterip/) | Crea un service clusterIP
 
 
 ## 📦 Requisitos

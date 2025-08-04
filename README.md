@@ -10,6 +10,7 @@ Este repositorio contiene una serie de ejercicios prácticos para aprender y pra
 | 02 | [02-deployment-nginx](./02-deployment-nginx/) | Crea un deployment con un nginx y replicas
 | 03 | [03-service-clusterip](./03-service-clusterip/) | Crea un service clusterIP
 | 04 | [04-service-nodeport](./04-service-nodeport/) | Crea un service nodePort
+| 05 | [05-namespace-labels](./05-namespace-labels/) | Crea un namespace
 
 
 ## 📦 Requisitos

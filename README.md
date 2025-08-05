@@ -11,6 +11,7 @@ Este repositorio contiene una serie de ejercicios prácticos para aprender y pra
 | 03 | [03-service-clusterip](./03-service-clusterip/) | Crea un service clusterIP
 | 04 | [04-service-nodeport](./04-service-nodeport/) | Crea un service nodePort
 | 05 | [05-namespace-labels](./05-namespace-labels/) | Crea un namespace
+| 06 [06-configmap-secret](./06-configmap-secret/) | Crea un configmap con un secret
 
 
 ## 📦 Requisitos

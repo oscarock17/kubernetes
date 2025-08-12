@@ -1,0 +1,34 @@
+#se crea el deployment inicialmente
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:latest
+---
+#se crea el servicio para exponer el deployment
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-service
+  labels:
+    app: nginx
+spec:
+  type: ClusterIP # Tipo de servicio por defecto
+  selector:
+    app: nginx
+  ports:
+    - protocol: TCP
+      port: 8080 # Puerto del servicio
+      targetPort: 80 # Puerto del contenedor o pods

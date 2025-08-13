@@ -17,6 +17,7 @@ Este repositorio contiene una serie de ejercicios prácticos para aprender y pra
 | 07 | [100-deployments](./100-deployments/) | Crea carpeta con ejemplo deployment
 | 08 | [101-services](./101-services/) | Crea carpeta con ejemplos de  services
 | 09 | [102-namespace](./102-namespaces/) | Crea carpeta con ejemplos de  namespaces
+| 10 | [103-limits-request](./103-limits-request/) | Crea carpeta con ejemplos de limits y request
 
 ## 📦 Requisitos
 

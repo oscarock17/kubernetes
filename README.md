@@ -18,6 +18,7 @@ Este repositorio contiene una serie de ejercicios prácticos para aprender y pra
 | 08 | [101-services](./101-services/) | Crea carpeta con ejemplos de  services
 | 09 | [102-namespace](./102-namespaces/) | Crea carpeta con ejemplos de  namespaces
 | 10 | [103-limits-request](./103-limits-request/) | Crea carpeta con ejemplos de limits y request
+| 11 | [104-limits-range](./104-limits-range/) | Crea carpeta con ejemplos de limits range
 
 ## 📦 Requisitos
 

@@ -21,6 +21,8 @@ Este repositorio contiene una serie de ejercicios prácticos para aprender y pra
 | 11 | [104-limits-range](./104-limits-range/) | Crea carpeta con ejemplos de limits range
 | 12 | [105-resource-quota](./105-resource-quota/) | Crea carpeta con ejemplos de resource quota
 
+| - | [hands-on1](./hands-on1/) | Crea carpeta ejercicio de practica (backend api en go con frontend en javascript)
+
 ## 📦 Requisitos
 
 - Docker

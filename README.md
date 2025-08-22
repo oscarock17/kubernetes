@@ -22,6 +22,7 @@ Este repositorio contiene una serie de ejercicios prácticos para aprender y pra
 | 12 | [105-resource-quota](./105-resource-quota/) | Crea carpeta con ejemplos de resource quota
 | 13 | [106-health-checks-probes](./106-health-checks-probes/) | Crea carpeta con ejemplos de health checks y diferentes tipos de probes
 | 14 | [107-variables-entorno](./107-variables-entorno/) | Crea carpeta con ejemplos de variables de entornos envs
+| 15 | [108-configmaps](./108-configmaps/) | Crea carpeta con ejemplos de config maps
 
 | - | [hands-on1](./hands-on1/) | Crea carpeta ejercicio de practica (backend api en go con frontend en javascript)
 

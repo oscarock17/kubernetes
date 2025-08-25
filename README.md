@@ -24,6 +24,7 @@ Este repositorio contiene una serie de ejercicios prácticos para aprender y pra
 | 14 | [107-variables-entorno](./107-variables-entorno/) | Crea carpeta con ejemplos de variables de entornos envs
 | 15 | [108-configmaps](./108-configmaps/) | Crea carpeta con ejemplos de config maps
 | 16 | [109-secrets](./109-secrets/) | Crea carpeta con ejemplos de manejo y uso de secretos
+| 17 | [110-volumenes](./110-volumenes/) | Crea carpeta con ejemplos de manejo y uso de volumenes
 
 | - | [hands-on1](./hands-on1/) | Crea carpeta ejercicio de practica (backend api en go con frontend en javascript)
 

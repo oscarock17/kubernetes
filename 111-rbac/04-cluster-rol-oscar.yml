@@ -1,0 +1,25 @@
+# este cluster-role permite los permisos a todo el cluster
+# creacion de un cluster-role para los pods de oscar
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: cluster-rol-pod-reader
+rules:
+- apiGroups: [""] # esto es vacio porque los pods son recursos core k api-resources
+  resources: ["pods"]
+  verbs: ["get", "watch", "list"]
+
+---
+# creacion de un role bending
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: clusterrol-binding-read-pods
+subjects: # define un usuario, grupo o cuenta de servicio
+- kind: User
+  name: oscar
+  apiGroup: rbac.authorization.k8s.io
+roleRef: # referencia al role que se va a asignar
+  kind: ClusterRole
+  name: cluster-rol-pod-reader
+  apiGroup: rbac.authorization.k8s.io

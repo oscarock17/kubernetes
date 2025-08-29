@@ -26,6 +26,7 @@ Este repositorio contiene una serie de ejercicios prácticos para aprender y pra
 | 16 | [109-secrets](./109-secrets/) | Crea carpeta con ejemplos de manejo y uso de secretos
 | 17 | [110-volumenes](./110-volumenes/) | Crea carpeta con ejemplos de manejo y uso de volumenes
 | 18 | [111-rbac](./111-rbac/) | Crea carpeta con ejemplos de RBAC dando permisos y creacion de roles
+| 19 | [112-service-account](./112-service-account/) | Crea carpeta con ejemplos de service account
 
 | - | [hands-on1](./hands-on1/) | Crea carpeta ejercicio de practica (backend api en go con frontend en javascript)
 

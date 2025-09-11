@@ -6,6 +6,8 @@ Este repositorio contiene una serie de ejercicios prácticos para aprender y pra
 
 | Nº | Archivo | Descripción |
 |----|---------|-------------|
+| 01 | [01-pods](./01-pods/) | Carpeta con ejemplos basicos de creacion de pods.
+
 | 01 | [01-pod-simple](./01-pod-simple/) | Crea un pod básico con un contenedor ejecutando Nginx.
 | 01 | [01-pod-two-conteiners](./01-pod-two-conteiners/) | Crea un pod con 2 contenedores.
 | 02 | [02-replica-set](./02-replica-set/) | Crea un replica set con un nginx

@@ -8,8 +8,10 @@ Este repositorio contiene una serie de ejercicios prácticos para aprender y pra
 |----|---------|-------------|
 | 01 | [01-pods](./01-pods/) | Crea Carpeta con ejemplos basicos de creacion de pods. |
 | 02 | [02-deployments](./02-deployments/) | Crea Carpeta con ejemplos de deployments.|
-| 03 | [03-replica-set](./03-replica-set/) | Crea un replica set con un nginx. |
+| 03 | [03-replica-set](./03-replica-set/) | Crea carpeta con ejemplos de replica set. |
+| 04 | [04-services](./04-services/) | Crea carpeta con ejemplos de servicios. |
 
+------
 | 02 | [02-deployment-nginx](./02-deployment-nginx/) | Crea un deployment con un nginx y replicas
 | 03 | [03-service-clusterip](./03-service-clusterip/) | Crea un service clusterIP
 | 04 | [04-service-nodeport](./04-service-nodeport/) | Crea un service nodePort

@@ -7,8 +7,8 @@ Este repositorio contiene una serie de ejercicios prácticos para aprender y pra
 | Nº | Archivo | Descripción |
 |----|---------|-------------|
 | 01 | [01-pods](./01-pods/) | Crea Carpeta con ejemplos basicos de creacion de pods. |
-| 02 | [02-deployments](./02-deployments/) | Crea Carpeta con ejemplos de deployments.|
-| 03 | [03-replica-set](./03-replica-set/) | Crea carpeta con ejemplos de replica set. |
+| 02 | [02-replica-set](./02-replica-set/) | Crea carpeta con ejemplos de replica set. |
+| 03 | [03-deployments](./03-deployments/) | Crea Carpeta con ejemplos de deployments.|
 | 04 | [04-services](./04-services/) | Crea carpeta con ejemplos de servicios. |
 
 ------

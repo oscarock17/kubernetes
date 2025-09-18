@@ -1,0 +1,33 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: dev
+  labels:
+    name: dev
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: mem-cpu-limit-range
+  namespace: dev
+spec:
+  limits:
+  - default:
+      memory: 512Mi # 512 megas de memoria por contenedor
+      cpu: 1
+    defaultRequest:
+      memory: 256Mi # 256 megas de memoria por contenedor por defecto
+      cpu: 0.5
+    type: Container
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-pod
+  namespace: dev
+  labels:
+    app: nginx
+spec:
+  containers:
+    - name: nginx-container
+      image: nginx:latest

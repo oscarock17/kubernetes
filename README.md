@@ -11,6 +11,7 @@ Este repositorio contiene una serie de ejercicios prácticos para aprender y pra
 | 03 | [03-deployments](./03-deployments/) | Crea Carpeta con ejemplos de deployments.|
 | 04 | [04-services](./04-services/) | Crea carpeta con ejemplos de servicios. |
 | 05 | [05-namespaces](./05-namespaces/) | Crea carpeta con ejemplos de namespaces. |
+| 06 | [06-limits-range](./06-limits-range/) | Crea carpeta con ejemplos de limits range. |
 ------
 | 02 | [02-deployment-nginx](./02-deployment-nginx/) | Crea un deployment con un nginx y replicas
 | 03 | [03-service-clusterip](./03-service-clusterip/) | Crea un service clusterIP

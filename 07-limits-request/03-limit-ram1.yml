@@ -1,0 +1,24 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: memory-demo
+spec:
+  containers:
+    - name: memory-demo
+      image: polinux/stress
+      resources:
+        requests:
+          memory: "100Mi" #va a tener 100Mi de memoria garantizada
+        limits:
+          memory: "200Mi" #va a tener un máximo de 200Mi de memoria
+      command: ["stress"]
+      args: ["--vm", "1", "--vm-bytes", "150M", "--vm-hang", "1"] # va a intentar usar 150Mi de memoria
+
+# request: capacidad de recursos garantizada
+# limit: una posibilidad de incremento temporal, pero no garantizada depende de los recursos del nodo
+
+#buscar propiedad QoS (quality of service) de los pods
+# hay 3 tipos de QoS: Guaranteed, Burstable, BestEffort
+# Guaranteed: cuando se especifica tanto request como limit y son iguales
+# Burstable: cuando se especifica request y limit, pero son diferentes
+# BestEffort: cuando no se especifica ni request ni limit

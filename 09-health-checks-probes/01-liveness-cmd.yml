@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    app: liveness
+  name: liveness-cmd
+spec:
+  containers:
+  - name: liveness
+    image: busybox
+    args:
+    - /bin/sh
+    - -c
+    - touch /tmp/healthy; sleep 30; rm -rf /tmp/healthy; sleep 600
+    livenessProbe:
+      exec:
+        command:
+        - cat
+        - /tmp/healthy
+      initialDelaySeconds: 5 # espera 5 segundos antes de la primera comprobación
+      periodSeconds: 5 # comprueba cada 5 segundos

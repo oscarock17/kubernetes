@@ -16,7 +16,8 @@ Este repositorio contiene una serie de ejercicios prácticos para aprender y pra
 | 08 | [08-resource-quota](./08-resource-quota/) | Crea carpeta con ejemplos de resource quota. |
 | 09 | [09-health-checks-probes](./09-health-checks-probes/) | Crea carpeta con ejemplos de health checks y diferentes tipos de probes. |
 | 10 | [10-variables-entorno](./10-variables-entorno/) | Crea carpeta con ejemplos de variables de entornos envs. |
-| 11 | [11-configmaps](./11-configmaps/) | Crea carpeta con ejemplos de config maps
+| 11 | [11-configmaps](./11-configmaps/) | Crea carpeta con ejemplos de config maps .|
+| 12 | [12-secrets](./12-secrets/) | Crea carpeta con ejemplos de manejo y uso de secretos .|
 ------
 | 02 | [02-deployment-nginx](./02-deployment-nginx/) | Crea un deployment con un nginx y replicas
 | 03 | [03-service-clusterip](./03-service-clusterip/) | Crea un service clusterIP
@@ -31,7 +32,7 @@ Este repositorio contiene una serie de ejercicios prácticos para aprender y pra
 
 
 
-| 16 | [109-secrets](./109-secrets/) | Crea carpeta con ejemplos de manejo y uso de secretos
+
 | 17 | [110-volumenes](./110-volumenes/) | Crea carpeta con ejemplos de manejo y uso de volumenes
 | 18 | [111-rbac](./111-rbac/) | Crea carpeta con ejemplos de RBAC dando permisos y creacion de roles
 | 19 | [112-service-account](./112-service-account/) | Crea carpeta con ejemplos de service account

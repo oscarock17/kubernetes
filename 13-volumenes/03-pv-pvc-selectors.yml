@@ -1,0 +1,44 @@
+# creacion de un volumen persistente PV
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv-test
+spec:
+  storageClassName: manual
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteOnce # Solo se puede montar en un nodo a la vez
+  hostPath: # hace referencia a un path dentro del nodo donde este corriendo el pod.
+    path: /test # Ruta en el nodo donde se almacenarán los datos
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv-test2
+  labels:
+    mysql: ready
+spec:
+  storageClassName: manual
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteOnce # Solo se puede montar en un nodo a la vez
+  hostPath: # hace referencia a un path dentro del nodo donde este corriendo el pod.
+    path: /mysql # Ruta en el nodo donde se almacenarán los datos
+---
+# creacion de un reclamo de volumen persistente PVC
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: pvc-test
+spec:
+  storageClassName: manual
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 10Gi # Tamaño del volumen solicitado
+  selector: # selector para filtrar los PVs disponibles
+    matchLabels:
+      mysql: ready # solo se seleccionaran los PVs que tengan esta etiqueta

@@ -19,6 +19,7 @@ Este repositorio contiene una serie de ejercicios prácticos para aprender y pra
 | 11 | [11-configmaps](./11-configmaps/) | Crea carpeta con ejemplos de config maps .|
 | 12 | [12-secrets](./12-secrets/) | Crea carpeta con ejemplos de manejo y uso de secretos .|
 | 13 | [13-volumenes](./13-volumenes/) | Crea carpeta con ejemplos de manejo y uso de volumenes.|
+| 14 | [14-rbac](./14-rbac/) | Crea carpeta con ejemplos de RBAC dando permisos y creacion de roles.|
 ------
 | 02 | [02-deployment-nginx](./02-deployment-nginx/) | Crea un deployment con un nginx y replicas
 | 03 | [03-service-clusterip](./03-service-clusterip/) | Crea un service clusterIP
@@ -35,7 +36,7 @@ Este repositorio contiene una serie de ejercicios prácticos para aprender y pra
 
 
 
-| 18 | [111-rbac](./111-rbac/) | Crea carpeta con ejemplos de RBAC dando permisos y creacion de roles
+
 | 19 | [112-service-account](./112-service-account/) | Crea carpeta con ejemplos de service account
 | 20 | [113-ingress](./113-ingress/) | Crea carpeta con ejemplos de ingress
 

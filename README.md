@@ -22,27 +22,7 @@ Este repositorio contiene una serie de ejercicios prácticos para aprender y pra
 | 14 | [14-rbac](./14-rbac/) | Crea carpeta con ejemplos de RBAC dando permisos y creacion de roles.|
 | 15 | [15-service-account](./15-service-account/) | Crea carpeta con ejemplos de service account.|
 | 16 | [16-ingress](./16-ingress/) | Crea carpeta con ejemplos de ingress.|
-------
-| 02 | [02-deployment-nginx](./02-deployment-nginx/) | Crea un deployment con un nginx y replicas
-| 03 | [03-service-clusterip](./03-service-clusterip/) | Crea un service clusterIP
-| 04 | [04-service-nodeport](./04-service-nodeport/) | Crea un service nodePort
-| 05 | [05-namespace-labels](./05-namespace-labels/) | Crea un namespace
-| 06 [06-configmap-secret](./06-configmap-secret/) | Crea un configmap con un secret
-| 08 | [101-services](./101-services/) | Crea carpeta con ejemplos de  services
-
-
-| 11 | [104-limits-range](./104-limits-range/) | Crea carpeta con ejemplos de limits range
-
-
-
-
-
-
-
-
-
-
-| - | [hands-on1](./hands-on1/) | Crea carpeta ejercicio de practica (backend api en go con frontend en javascript)
+| - | [hands-on1](./hands-on1/) | Crea carpeta ejercicio de practica (backend api en go con frontend en javascript).|
 
 ## 📦 Requisitos
 

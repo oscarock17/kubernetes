@@ -30,6 +30,10 @@ Este repositorio contiene una serie de ejercicios prácticos para aprender y pra
 - Kubectl
 - Minikube o Kind
 
+## 📚 Recursos adicionales
+
+- [Comandos de kubernetes con descripción](./COMANDOS.md)
+
 
 ## 🙌 Autor
 
